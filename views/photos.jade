@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  form#search(action='/photos', method='post')
+    input#tag(type='text', name='tag', placeholder='Type a tag!')
+    input(type='submit', value='Search Tags')
+  #photos

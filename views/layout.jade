@@ -1,0 +1,33 @@
+doctype 5
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='instafun')
+    != css('bootstrap')
+    != css('docs')
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.brand(href='/') Instafun
+          .nav-collapse
+            ul.nav
+              li.active
+                a(href='/') Home
+              li
+                a(href='/about') About
+              li
+                a(href='/contact') Contact
+    .container
+      #main(role='main')
+        block content
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+    != js('site')
+    
+    script(src='/bootstrap')
+    
