@@ -1,8 +1,15 @@
 Instafun
 ========
 
-Instafun is an Express application with some Backbone using the instagram API. And instagram is poetry for people who don't write or code. Yet it's poetry, no less. Thanks for visiting and enjoy!
+Instafun is a node.js application with some Backbone using the instagram API. Watch the world unfolding in real time and discover your favorite searches. 
 
 Play with it here: http://instafun.herokuapp.com/
 
 ![instafun png](https://github.com/janewang/Instafun_public/raw/master/public/images/instafun.png)
+
+Dependencies:
+ - Express
+ - Backbone.js
+ - Underscore.js
+
+Diffs exist between the deployed and public version.
